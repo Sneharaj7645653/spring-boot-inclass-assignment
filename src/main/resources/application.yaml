@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      database: rideshare
+      host: localhost
+      port: 27017
+
+# JWT secret should be set in environment variable JWT_SECRET in production
+# Logging configuration
+logging:
+  level:
+    org.springframework: INFO
